@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js defer"></script>
+</head>
+<body class="text-gray-600 font-body bg-[url('/build/img/whitebg.png')] bg-cover bg-no-repeat bg-slate-50 bg-opacity-75 m-20">
+    <div><!-- content wrapper -->
+    <!-- start nav -->    
+        <header>
+            <section class="flex justify-between items-center">
+                <h1 class="inline-block text-gray-800 font-bold pr-6 py-6 text-2xl">
+                    <a href="/">Create</a>
+                    
+                </h1>
+                
+                <div>
+                    <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
+                        &#9776;
+                    </button>
+                    <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
+                        <a href="#home" class="hover:opacity-90">Home</a>
+                        <a href="#portfolio" class="hover:opacity-90">Portfolio</a>
+                        <a href="#team" class="hover:opacity-90">Team</a>
+                        <a href="#contactus" class="hover:opacity-90">Contact Us</a>
+                    </nav>
+                    
+                </div>
+            </section>
+            <section id="mobile-menu" class="absolute top-0 w-full bg-white text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
+                <button class="text-8xl self-end px-6">
+                    &times;
+                </button>
+                <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
+                        <a href="#home" class="w-full text-center py-6 hover:opacity-90">Home</a>
+                        <a href="#portfolio" class="w-full text-center py-6 hover:opacity-90">Portfolio</a>
+                        <a href="#team" class="w-full text-center py-6 hover:opacity-90">Team</a>
+                        <a href="#contactus" class="w-full text-center py-6 hover:opacity-90">Contact Us</a>
+                </nav>
+            </section>
+        
+        </header>
+    <!-- end nav -->
+      
+        <main class="pt-10">
+          
+          <header>
+            <h2 class="font-bold text-4xl">Meet our creative team</h2>
+            <div><p class="pt-3 text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div>
+          </header>
+
+    <!-- cards go here -->
+        <div>
+            <div class="pt-20 grid lg:grid-cols-3 gap-16">
+
+                <div class="card hover:shadow-lg">
+                    <img src="img/mia.png" alt="mia" class="w-full h-96 object-cover">
+                    <div class="m-4 text-center">
+                        <span class="font-bold"> Mia </span>
+                        <span class="block text-gray-500 text-sm">Founder & CEO</span>
+                    </div>
+                </div>
+
+                <div class="card hover:shadow-lg">
+                    <img src="img/kim.png" alt="kim" class="w-full h-96 object-cover">
+                    <div class="m-4 text-center">
+                        <span class="font-bold"> Kim </span>
+                        <span class="block text-gray-500 text-sm">Marketing Lead</span>
+                    </div>
+                </div>
+
+                <div class="card hover:shadow-lg">
+                    <img src="img/ryan.png" alt="ryan" class="w-full h-96 object-cover">
+                    <div class="m-4 text-center">
+                        <span class="font-bold"> Ryan </span>
+                        <span class="block text-gray-500 text-sm">Content Marketer</span>
+                    </div>
+                </div>
+
+                <div class="card hover:shadow-lg">
+                    <img src="img/irene.png" alt="irene" class="w-full h-96 object-cover">
+                    <div class="m-4 text-center">
+                        <span class="font-bold"> Irene </span>
+                        <span class="block text-gray-500 text-sm">Inbound Strategist</span>
+                    </div>
+                </div>
+
+                <div class="card hover:shadow-lg">
+                    <img src="img/paul.png" alt="paul" class="w-full h-96 object-cover">
+                    <div class="m-4 text-center">
+                        <span class="font-bold"> Paul </span>
+                        <span class="block text-gray-500 text-sm">Web Designer</span>
+                    </div>
+                </div>
+
+                <div class="card hover:shadow-lg">
+                    <img src="img/tommy.png" alt="tommy" class="w-full h-96 object-cover">
+                    <div class="m-4 text-center">
+                        <span class="font-bold"> Tommy </span>
+                        <span class="block text-gray-500 text-sm">Graphic Designer</span>
+                    </div>
+                </div>
+
+            </div> 
+        </div>
+    <!-- cards end here -->
+        </main>
+      </div>
+</body>
+</html>
