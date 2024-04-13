@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js defer"></script>
+    <script src="js/main.js" defer></script>
 </head>
 <body class="text-gray-600 font-body bg-[url('/build/img/whitebg.png')] bg-cover bg-no-repeat bg-slate-50 bg-opacity-75 m-20">
     <div><!-- content wrapper -->
     <!-- start nav -->    
         <header>
-            <section class="flex justify-between items-center">
+            <section class="flex flex-row items-center">
                 <h1 class="inline-block text-gray-800 font-bold pr-6 py-6 text-2xl">
                     <a href="/">Create</a>
                     
@@ -21,7 +21,7 @@
                     <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer">
                         &#9776;
                     </button>
-                    <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
+                    <nav class="hidden md:block space-x-8 text-xl m-9" aria-label="main">
                         <a href="#home" class="hover:opacity-90">Home</a>
                         <a href="#portfolio" class="hover:opacity-90">Portfolio</a>
                         <a href="#team" class="hover:opacity-90">Team</a>
@@ -30,8 +30,8 @@
                     
                 </div>
             </section>
-            <section id="mobile-menu" class="absolute top-0 w-full bg-white text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
-                <button class="text-8xl self-end px-6">
+            <section id="mobile-menu" class="top-0 bg-white w-full text-3xl flex-col justify-content-center origin-top animate-open-menu hidden">
+                <button class="text-3xl self-end px-6 m-20">
                     &times;
                 </button>
                 <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
